@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710F8F6B25E8921800897AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F6A25E8921800897AC0 /* AppDelegate.swift */; };
+		710F8F6D25E8921800897AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F6C25E8921800897AC0 /* SceneDelegate.swift */; };
+		710F8F6F25E8921800897AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F6E25E8921800897AC0 /* ViewController.swift */; };
+		710F8F7225E8921800897AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F8F7025E8921800897AC0 /* Main.storyboard */; };
+		710F8F7425E8921C00897AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 710F8F7325E8921C00897AC0 /* Assets.xcassets */; };
+		710F8F7725E8921C00897AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F8F7525E8921C00897AC0 /* LaunchScreen.storyboard */; };
+		710F8F8225E8921D00897AC0 /* tryBlutoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F8125E8921D00897AC0 /* tryBlutoothTests.swift */; };
+		710F8F8D25E8921D00897AC0 /* tryBlutoothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F8C25E8921D00897AC0 /* tryBlutoothUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		710F8F7E25E8921D00897AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710F8F5F25E8921800897AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710F8F6625E8921800897AC0;
+			remoteInfo = tryBlutooth;
+		};
+		710F8F8925E8921D00897AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 710F8F5F25E8921800897AC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710F8F6625E8921800897AC0;
+			remoteInfo = tryBlutooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		710F8F6725E8921800897AC0 /* tryBlutooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryBlutooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F8F6A25E8921800897AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		710F8F6C25E8921800897AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		710F8F6E25E8921800897AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		710F8F7125E8921800897AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		710F8F7325E8921C00897AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		710F8F7625E8921C00897AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		710F8F7825E8921C00897AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710F8F7D25E8921D00897AC0 /* tryBlutoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryBlutoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F8F8125E8921D00897AC0 /* tryBlutoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryBlutoothTests.swift; sourceTree = "<group>"; };
+		710F8F8325E8921D00897AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		710F8F8825E8921D00897AC0 /* tryBlutoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryBlutoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		710F8F8C25E8921D00897AC0 /* tryBlutoothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryBlutoothUITests.swift; sourceTree = "<group>"; };
+		710F8F8E25E8921D00897AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		710F8F6425E8921800897AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F7A25E8921D00897AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F8525E8921D00897AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710F8F5E25E8921800897AC0 = {
+			isa = PBXGroup;
+			children = (
+				710F8F6925E8921800897AC0 /* tryBlutooth */,
+				710F8F8025E8921D00897AC0 /* tryBlutoothTests */,
+				710F8F8B25E8921D00897AC0 /* tryBlutoothUITests */,
+				710F8F6825E8921800897AC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		710F8F6825E8921800897AC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				710F8F6725E8921800897AC0 /* tryBlutooth.app */,
+				710F8F7D25E8921D00897AC0 /* tryBlutoothTests.xctest */,
+				710F8F8825E8921D00897AC0 /* tryBlutoothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710F8F6925E8921800897AC0 /* tryBlutooth */ = {
+			isa = PBXGroup;
+			children = (
+				710F8F6A25E8921800897AC0 /* AppDelegate.swift */,
+				710F8F6C25E8921800897AC0 /* SceneDelegate.swift */,
+				710F8F6E25E8921800897AC0 /* ViewController.swift */,
+				710F8F7025E8921800897AC0 /* Main.storyboard */,
+				710F8F7325E8921C00897AC0 /* Assets.xcassets */,
+				710F8F7525E8921C00897AC0 /* LaunchScreen.storyboard */,
+				710F8F7825E8921C00897AC0 /* Info.plist */,
+			);
+			path = tryBlutooth;
+			sourceTree = "<group>";
+		};
+		710F8F8025E8921D00897AC0 /* tryBlutoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				710F8F8125E8921D00897AC0 /* tryBlutoothTests.swift */,
+				710F8F8325E8921D00897AC0 /* Info.plist */,
+			);
+			path = tryBlutoothTests;
+			sourceTree = "<group>";
+		};
+		710F8F8B25E8921D00897AC0 /* tryBlutoothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				710F8F8C25E8921D00897AC0 /* tryBlutoothUITests.swift */,
+				710F8F8E25E8921D00897AC0 /* Info.plist */,
+			);
+			path = tryBlutoothUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		710F8F6625E8921800897AC0 /* tryBlutooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F8F9125E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutooth" */;
+			buildPhases = (
+				710F8F6325E8921800897AC0 /* Sources */,
+				710F8F6425E8921800897AC0 /* Frameworks */,
+				710F8F6525E8921800897AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tryBlutooth;
+			productName = tryBlutooth;
+			productReference = 710F8F6725E8921800897AC0 /* tryBlutooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		710F8F7C25E8921D00897AC0 /* tryBlutoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F8F9425E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutoothTests" */;
+			buildPhases = (
+				710F8F7925E8921D00897AC0 /* Sources */,
+				710F8F7A25E8921D00897AC0 /* Frameworks */,
+				710F8F7B25E8921D00897AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710F8F7F25E8921D00897AC0 /* PBXTargetDependency */,
+			);
+			name = tryBlutoothTests;
+			productName = tryBlutoothTests;
+			productReference = 710F8F7D25E8921D00897AC0 /* tryBlutoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		710F8F8725E8921D00897AC0 /* tryBlutoothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 710F8F9725E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutoothUITests" */;
+			buildPhases = (
+				710F8F8425E8921D00897AC0 /* Sources */,
+				710F8F8525E8921D00897AC0 /* Frameworks */,
+				710F8F8625E8921D00897AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				710F8F8A25E8921D00897AC0 /* PBXTargetDependency */,
+			);
+			name = tryBlutoothUITests;
+			productName = tryBlutoothUITests;
+			productReference = 710F8F8825E8921D00897AC0 /* tryBlutoothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		710F8F5F25E8921800897AC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					710F8F6625E8921800897AC0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					710F8F7C25E8921D00897AC0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 710F8F6625E8921800897AC0;
+					};
+					710F8F8725E8921D00897AC0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 710F8F6625E8921800897AC0;
+					};
+				};
+			};
+			buildConfigurationList = 710F8F6225E8921800897AC0 /* Build configuration list for PBXProject "tryBlutooth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 710F8F5E25E8921800897AC0;
+			productRefGroup = 710F8F6825E8921800897AC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				710F8F6625E8921800897AC0 /* tryBlutooth */,
+				710F8F7C25E8921D00897AC0 /* tryBlutoothTests */,
+				710F8F8725E8921D00897AC0 /* tryBlutoothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		710F8F6525E8921800897AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F8F7725E8921C00897AC0 /* LaunchScreen.storyboard in Resources */,
+				710F8F7425E8921C00897AC0 /* Assets.xcassets in Resources */,
+				710F8F7225E8921800897AC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F7B25E8921D00897AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F8625E8921D00897AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		710F8F6325E8921800897AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F8F6F25E8921800897AC0 /* ViewController.swift in Sources */,
+				710F8F6B25E8921800897AC0 /* AppDelegate.swift in Sources */,
+				710F8F6D25E8921800897AC0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F7925E8921D00897AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F8F8225E8921D00897AC0 /* tryBlutoothTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710F8F8425E8921D00897AC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710F8F8D25E8921D00897AC0 /* tryBlutoothUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		710F8F7F25E8921D00897AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710F8F6625E8921800897AC0 /* tryBlutooth */;
+			targetProxy = 710F8F7E25E8921D00897AC0 /* PBXContainerItemProxy */;
+		};
+		710F8F8A25E8921D00897AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 710F8F6625E8921800897AC0 /* tryBlutooth */;
+			targetProxy = 710F8F8925E8921D00897AC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		710F8F7025E8921800897AC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710F8F7125E8921800897AC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		710F8F7525E8921C00897AC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				710F8F7625E8921C00897AC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		710F8F8F25E8921D00897AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		710F8F9025E8921D00897AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		710F8F9225E8921D00897AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		710F8F9325E8921D00897AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		710F8F9525E8921D00897AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutoothTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutoothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryBlutooth.app/tryBlutooth";
+			};
+			name = Debug;
+		};
+		710F8F9625E8921D00897AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutoothTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutoothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryBlutooth.app/tryBlutooth";
+			};
+			name = Release;
+		};
+		710F8F9825E8921D00897AC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutoothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutoothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tryBlutooth;
+			};
+			name = Debug;
+		};
+		710F8F9925E8921D00897AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W7W59KD2WL;
+				INFOPLIST_FILE = tryBlutoothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = th.co.cdgs.tryBlutooth.tryBlutoothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tryBlutooth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		710F8F6225E8921800897AC0 /* Build configuration list for PBXProject "tryBlutooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F8F8F25E8921D00897AC0 /* Debug */,
+				710F8F9025E8921D00897AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F8F9125E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F8F9225E8921D00897AC0 /* Debug */,
+				710F8F9325E8921D00897AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F8F9425E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F8F9525E8921D00897AC0 /* Debug */,
+				710F8F9625E8921D00897AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		710F8F9725E8921D00897AC0 /* Build configuration list for PBXNativeTarget "tryBlutoothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				710F8F9825E8921D00897AC0 /* Debug */,
+				710F8F9925E8921D00897AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 710F8F5F25E8921800897AC0 /* Project object */;
+}
