@@ -15,6 +15,7 @@
 		710F8F7725E8921C00897AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 710F8F7525E8921C00897AC0 /* LaunchScreen.storyboard */; };
 		710F8F8225E8921D00897AC0 /* tryBlutoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F8125E8921D00897AC0 /* tryBlutoothTests.swift */; };
 		710F8F8D25E8921D00897AC0 /* tryBlutoothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710F8F8C25E8921D00897AC0 /* tryBlutoothUITests.swift */; };
+		71BC35C525EDD57B00E96916 /* ObdBuletoothIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BC35C425EDD57B00E96916 /* ObdBuletoothIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		710F8F8825E8921D00897AC0 /* tryBlutoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryBlutoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		710F8F8C25E8921D00897AC0 /* tryBlutoothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryBlutoothUITests.swift; sourceTree = "<group>"; };
 		710F8F8E25E8921D00897AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BC35C425EDD57B00E96916 /* ObdBuletoothIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObdBuletoothIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				710F8F7325E8921C00897AC0 /* Assets.xcassets */,
 				710F8F7525E8921C00897AC0 /* LaunchScreen.storyboard */,
 				710F8F7825E8921C00897AC0 /* Info.plist */,
+				71BC35C425EDD57B00E96916 /* ObdBuletoothIO.swift */,
 			);
 			path = tryBlutooth;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				710F8F6F25E8921800897AC0 /* ViewController.swift in Sources */,
 				710F8F6B25E8921800897AC0 /* AppDelegate.swift in Sources */,
+				71BC35C525EDD57B00E96916 /* ObdBuletoothIO.swift in Sources */,
 				710F8F6D25E8921800897AC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

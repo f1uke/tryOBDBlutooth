@@ -22,16 +22,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKo-HI-36F">
+                                <rect key="frame" x="152" y="476" width="110" height="30"/>
+                                <state key="normal" title="Send Command"/>
+                                <connections>
+                                    <action selector="okPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYo-hR-HBh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="oKo-HI-36F" firstAttribute="top" secondItem="n0C-BP-9Wv" secondAttribute="bottom" constant="17.5" id="2aD-Rx-wrt"/>
+                            <constraint firstItem="oKo-HI-36F" firstAttribute="centerX" secondItem="n0C-BP-9Wv" secondAttribute="centerX" id="3hi-J5-YSA"/>
                             <constraint firstItem="n0C-BP-9Wv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MZQ-JY-OpW"/>
                             <constraint firstItem="n0C-BP-9Wv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kz6-7s-yh8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="label" destination="n0C-BP-9Wv" id="qra-VL-MsV"/>
+                        <outlet property="okBtn" destination="oKo-HI-36F" id="c78-1X-RmU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
