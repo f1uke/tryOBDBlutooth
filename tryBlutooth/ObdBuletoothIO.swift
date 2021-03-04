@@ -19,6 +19,8 @@ class ObdBluetoothIO: NSObject {
     var onResponse: ((String) -> ())?
     var onConnected: (() -> ())?
     
+    var respData: String?
+    
     init(serviceUUID: String, obdCharacteristic: String, deviceName: String, onConnected: (() -> ())? = nil, onResponse: ((String) -> ())? = nil ) {
         self.serviceUUID = serviceUUID
         self.obdCharacteristic = obdCharacteristic
@@ -36,12 +38,10 @@ class ObdBluetoothIO: NSObject {
             return
         }
         
+        print("Sending.. =>\(value)")
         peripheral.writeValue(value.data(using: .utf8)!, for: characteristic, type: .withResponse)
-        peripheral.readValue(for: characteristic)
         
-        if let value = characteristic.value {
-            onResponse?(String(data:value, encoding:.utf8) ?? "bad utf8 data")
-        }
+        self.onResponse = onResponse
     }
     
 }
@@ -50,7 +50,7 @@ extension ObdBluetoothIO: CBCentralManagerDelegate {
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         peripheral.discoverServices([CBUUID(string: serviceUUID)])
     }
-
+    
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         if peripheral.name == deviceName {
             connectedPeripheral = peripheral
@@ -62,7 +62,7 @@ extension ObdBluetoothIO: CBCentralManagerDelegate {
             centralManager.stopScan()
         }
     }
-
+    
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         if central.state == .poweredOn {
             centralManager.scanForPeripherals(withServices: nil, options: nil)
@@ -75,17 +75,17 @@ extension ObdBluetoothIO: CBPeripheralDelegate {
         guard let services = peripheral.services else {
             return
         }
-
+        
         for service in services {
             peripheral.discoverCharacteristics([CBUUID(string: obdCharacteristic)], for: service)
         }
     }
-
+    
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
         guard let characteristics = service.characteristics else {
             return
         }
-
+        
         for characteristic in characteristics {
             if characteristic.properties.contains(.write) || characteristic.properties.contains(.writeWithoutResponse) {
                 writableCharacteristic = characteristic
@@ -94,14 +94,19 @@ extension ObdBluetoothIO: CBPeripheralDelegate {
             peripheral.setNotifyValue(true, for: characteristic)
         }
         onConnected?()
+        
     }
-
+    
     func peripheral(_ peripheral: CBPeripheral, didUpdateValueFor characteristic: CBCharacteristic, error: Error?) {
-        guard let data = characteristic.value else {
-            return
+        if let data = characteristic.value {
+            print(String(data: data, encoding:.utf8)!)
+            if String(data: data, encoding: .utf8)?.suffix(2) == "\r>" {
+                onResponse?(respData ?? "")
+                respData = ""
+            } else {
+                respData = String(data: data, encoding:.utf8)!
+            }
         }
-
-        onResponse?(String(data: data, encoding: .utf8)!)
-//        delegate.obdBluetoothIO(obdBluetoothIO: self, didReceiveValue: String(data: data, encoding: .utf8)!)
+        
     }
 }

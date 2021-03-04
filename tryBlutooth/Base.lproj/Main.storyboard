@@ -23,10 +23,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKo-HI-36F">
-                                <rect key="frame" x="152" y="476" width="110" height="30"/>
-                                <state key="normal" title="Send Command"/>
+                                <rect key="frame" x="139.5" y="476" width="135" height="30"/>
+                                <state key="normal" title="Send Init Command"/>
                                 <connections>
                                     <action selector="okPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QYo-hR-HBh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmF-Au-5Lm">
+                                <rect key="frame" x="189.5" y="514" width="35" height="30"/>
+                                <state key="normal" title="1000"/>
+                                <connections>
+                                    <action selector="Pressed0100:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4X9-pS-baW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHt-Y8-0nb">
+                                <rect key="frame" x="189" y="552" width="36" height="30"/>
+                                <state key="normal" title="100C"/>
+                                <connections>
+                                    <action selector="Pressed010C:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deC-kC-Vmi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,7 +49,11 @@
                         <constraints>
                             <constraint firstItem="oKo-HI-36F" firstAttribute="top" secondItem="n0C-BP-9Wv" secondAttribute="bottom" constant="17.5" id="2aD-Rx-wrt"/>
                             <constraint firstItem="oKo-HI-36F" firstAttribute="centerX" secondItem="n0C-BP-9Wv" secondAttribute="centerX" id="3hi-J5-YSA"/>
+                            <constraint firstItem="mHt-Y8-0nb" firstAttribute="centerX" secondItem="VmF-Au-5Lm" secondAttribute="centerX" id="4sV-NF-7wc"/>
+                            <constraint firstItem="VmF-Au-5Lm" firstAttribute="centerX" secondItem="oKo-HI-36F" secondAttribute="centerX" id="Ao2-S8-HLi"/>
+                            <constraint firstItem="VmF-Au-5Lm" firstAttribute="top" secondItem="oKo-HI-36F" secondAttribute="bottom" constant="8" id="C4X-Sl-beu"/>
                             <constraint firstItem="n0C-BP-9Wv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MZQ-JY-OpW"/>
+                            <constraint firstItem="mHt-Y8-0nb" firstAttribute="top" secondItem="VmF-Au-5Lm" secondAttribute="bottom" constant="8" id="cLH-tN-gdb"/>
                             <constraint firstItem="n0C-BP-9Wv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kz6-7s-yh8"/>
                         </constraints>
                     </view>
